@@ -9,11 +9,11 @@
 // Wifi Settings
 const char* ssid = "NetworkName";
 const char* pass = "NetworkPassword";
-//const unsigned long maxAttempts = 30;
+const unsigned long maxAttempts = 30;
 WiFiClient client;
 
 // *** disable Wi-Fi connection *** 
-const unsigned long maxAttempts = 0;
+//const unsigned long maxAttempts = 0;
 
 // ThingSpeak Settings
 // *** production ***
